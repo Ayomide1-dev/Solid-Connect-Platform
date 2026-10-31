@@ -1,0 +1,1185 @@
+{
+  "school": {
+    "id": "sch_chis_01",
+    "name": "Crown Heights International School",
+    "motto": "Knowledge, Character and Excellence",
+    "logo": "/src/assets/images/sch_connect_logo_1793451675033.jpg",
+    "address": "Plot 14 Admiralty Way, Lekki Phase 1, Lagos State, Nigeria",
+    "phone": "+234 803 456 7890",
+    "email": "admissions@crownheights.sch.ng",
+    "state": "Lagos",
+    "lga": "Eti-Osa",
+    "currentSession": "2024/2025",
+    "currentTerm": "1st Term",
+    "caWeight": 30,
+    "examWeight": 70,
+    "bankName": "Zenith Bank PLC",
+    "bankAccountName": "Crown Heights Int School - Tuition Collection",
+    "bankAccountNumber": "1014829384",
+    "gradingScale": [
+      {
+        "grade": "A1",
+        "minScore": 75,
+        "maxScore": 100,
+        "remark": "Distinction",
+        "points": 9
+      },
+      {
+        "grade": "B2",
+        "minScore": 70,
+        "maxScore": 74,
+        "remark": "Very Good",
+        "points": 8
+      },
+      {
+        "grade": "B3",
+        "minScore": 65,
+        "maxScore": 69,
+        "remark": "Good",
+        "points": 7
+      },
+      {
+        "grade": "C4",
+        "minScore": 60,
+        "maxScore": 64,
+        "remark": "Credit",
+        "points": 6
+      },
+      {
+        "grade": "C5",
+        "minScore": 55,
+        "maxScore": 59,
+        "remark": "Credit",
+        "points": 5
+      },
+      {
+        "grade": "C6",
+        "minScore": 50,
+        "maxScore": 54,
+        "remark": "Credit",
+        "points": 4
+      },
+      {
+        "grade": "D7",
+        "minScore": 45,
+        "maxScore": 49,
+        "remark": "Pass",
+        "points": 3
+      },
+      {
+        "grade": "E8",
+        "minScore": 40,
+        "maxScore": 44,
+        "remark": "Pass",
+        "points": 2
+      },
+      {
+        "grade": "F9",
+        "minScore": 0,
+        "maxScore": 39,
+        "remark": "Fail",
+        "points": 0
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": "usr_admin",
+      "schoolId": "sch_chis_01",
+      "name": "Dr. Babatunde Alabi",
+      "email": "principal@crownheights.sch.ng",
+      "role": "admin",
+      "phone": "+234 802 111 2233",
+      "status": "active"
+    },
+    {
+      "id": "usr_tch_1",
+      "schoolId": "sch_chis_01",
+      "name": "Mr. Chinedu Okafor",
+      "email": "c.okafor@crownheights.sch.ng",
+      "role": "teacher",
+      "phone": "+234 803 222 3344",
+      "status": "active",
+      "linkedEntityId": "tch_1"
+    },
+    {
+      "id": "usr_tch_2",
+      "schoolId": "sch_chis_01",
+      "name": "Mrs. Folashade Adeyemi",
+      "email": "f.adeyemi@crownheights.sch.ng",
+      "role": "teacher",
+      "phone": "+234 805 333 4455",
+      "status": "active",
+      "linkedEntityId": "tch_2"
+    },
+    {
+      "id": "usr_std_1",
+      "schoolId": "sch_chis_01",
+      "name": "Toluwanimi Adeleke",
+      "email": "t.adeleke@student.crownheights.sch.ng",
+      "role": "student",
+      "phone": "+234 810 555 6677",
+      "status": "active",
+      "linkedEntityId": "std_1"
+    },
+    {
+      "id": "usr_std_2",
+      "schoolId": "sch_chis_01",
+      "name": "Emeka Eze",
+      "email": "e.eze@student.crownheights.sch.ng",
+      "role": "student",
+      "phone": "+234 811 666 7788",
+      "status": "active",
+      "linkedEntityId": "std_2"
+    },
+    {
+      "id": "usr_par_1",
+      "schoolId": "sch_chis_01",
+      "name": "Chief Olatunji Adeleke",
+      "email": "tunji.adeleke@gmail.com",
+      "role": "parent",
+      "phone": "+234 803 777 8899",
+      "status": "active",
+      "linkedEntityId": "par_1"
+    },
+    {
+      "id": "usr_bur_1",
+      "schoolId": "sch_chis_01",
+      "name": "Mrs. Ngozi Obi (ACA)",
+      "email": "bursar@crownheights.sch.ng",
+      "role": "bursar",
+      "phone": "+234 806 888 9900",
+      "status": "active"
+    }
+  ],
+  "classes": [
+    {
+      "id": "cls_jss1_a",
+      "schoolId": "sch_chis_01",
+      "name": "JSS 1",
+      "arm": "Gold",
+      "level": "Junior Secondary",
+      "classTeacherId": "tch_1",
+      "classTeacherName": "Mr. Chinedu Okafor",
+      "studentCount": 32,
+      "capacity": 35
+    },
+    {
+      "id": "cls_jss2_a",
+      "schoolId": "sch_chis_01",
+      "name": "JSS 2",
+      "arm": "Gold",
+      "level": "Junior Secondary",
+      "classTeacherId": "tch_2",
+      "classTeacherName": "Mrs. Folashade Adeyemi",
+      "studentCount": 30,
+      "capacity": 35
+    },
+    {
+      "id": "cls_jss3_a",
+      "schoolId": "sch_chis_01",
+      "name": "JSS 3",
+      "arm": "Gold",
+      "level": "Junior Secondary",
+      "studentCount": 28,
+      "capacity": 35
+    },
+    {
+      "id": "cls_sss1_sci",
+      "schoolId": "sch_chis_01",
+      "name": "SSS 1",
+      "arm": "Science",
+      "level": "Senior Secondary",
+      "studentCount": 26,
+      "capacity": 30
+    },
+    {
+      "id": "cls_sss2_sci",
+      "schoolId": "sch_chis_01",
+      "name": "SSS 2",
+      "arm": "Science",
+      "level": "Senior Secondary",
+      "classTeacherId": "tch_1",
+      "classTeacherName": "Mr. Chinedu Okafor",
+      "studentCount": 25,
+      "capacity": 30
+    },
+    {
+      "id": "cls_sss3_sci",
+      "schoolId": "sch_chis_01",
+      "name": "SSS 3",
+      "arm": "Science",
+      "level": "Senior Secondary",
+      "studentCount": 24,
+      "capacity": 30
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub_mth",
+      "schoolId": "sch_chis_01",
+      "name": "Mathematics",
+      "code": "MTH 201",
+      "level": "Junior Secondary",
+      "category": "General",
+      "assignedTeacherId": "tch_1",
+      "assignedTeacherName": "Mr. Chinedu Okafor"
+    },
+    {
+      "id": "sub_eng",
+      "schoolId": "sch_chis_01",
+      "name": "English Language",
+      "code": "ENG 201",
+      "level": "Junior Secondary",
+      "category": "General",
+      "assignedTeacherId": "tch_2",
+      "assignedTeacherName": "Mrs. Folashade Adeyemi"
+    },
+    {
+      "id": "sub_bst",
+      "schoolId": "sch_chis_01",
+      "name": "Basic Science & Technology",
+      "code": "BST 201",
+      "level": "Junior Secondary",
+      "category": "Science",
+      "assignedTeacherId": "tch_3",
+      "assignedTeacherName": "Dr. Aminu Garba"
+    },
+    {
+      "id": "sub_cve",
+      "schoolId": "sch_chis_01",
+      "name": "Civic Education",
+      "code": "CVE 201",
+      "level": "Junior Secondary",
+      "category": "General",
+      "assignedTeacherId": "tch_2",
+      "assignedTeacherName": "Mrs. Folashade Adeyemi"
+    },
+    {
+      "id": "sub_phy",
+      "schoolId": "sch_chis_01",
+      "name": "Physics",
+      "code": "PHY 301",
+      "level": "Senior Secondary",
+      "category": "Science",
+      "assignedTeacherId": "tch_3",
+      "assignedTeacherName": "Dr. Aminu Garba"
+    },
+    {
+      "id": "sub_chm",
+      "schoolId": "sch_chis_01",
+      "name": "Chemistry",
+      "code": "CHM 301",
+      "level": "Senior Secondary",
+      "category": "Science",
+      "assignedTeacherId": "tch_3",
+      "assignedTeacherName": "Dr. Aminu Garba"
+    },
+    {
+      "id": "sub_bio",
+      "schoolId": "sch_chis_01",
+      "name": "Biology",
+      "code": "BIO 301",
+      "level": "Senior Secondary",
+      "category": "Science",
+      "assignedTeacherId": "tch_1",
+      "assignedTeacherName": "Mr. Chinedu Okafor"
+    },
+    {
+      "id": "sub_eco",
+      "schoolId": "sch_chis_01",
+      "name": "Economics",
+      "code": "ECO 301",
+      "level": "Senior Secondary",
+      "category": "Commercial",
+      "assignedTeacherId": "tch_2",
+      "assignedTeacherName": "Mrs. Folashade Adeyemi"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "tch_1",
+      "schoolId": "sch_chis_01",
+      "staffId": "TCH/CHIS/012",
+      "name": "Mr. Chinedu Okafor",
+      "email": "c.okafor@crownheights.sch.ng",
+      "phone": "+234 803 222 3344",
+      "qualification": "B.Sc (Ed) Mathematics, University of Lagos",
+      "assignedClasses": [
+        "cls_jss1_a",
+        "cls_jss2_a",
+        "cls_sss2_sci"
+      ],
+      "assignedSubjects": [
+        "Mathematics",
+        "Biology"
+      ],
+      "isClassTeacherOf": "cls_jss1_a"
+    },
+    {
+      "id": "tch_2",
+      "schoolId": "sch_chis_01",
+      "staffId": "TCH/CHIS/018",
+      "name": "Mrs. Folashade Adeyemi",
+      "email": "f.adeyemi@crownheights.sch.ng",
+      "phone": "+234 805 333 4455",
+      "qualification": "B.A (Ed) English Literature, Obafemi Awolowo University",
+      "assignedClasses": [
+        "cls_jss2_a",
+        "cls_sss2_sci"
+      ],
+      "assignedSubjects": [
+        "English Language",
+        "Civic Education",
+        "Economics"
+      ],
+      "isClassTeacherOf": "cls_jss2_a"
+    },
+    {
+      "id": "tch_3",
+      "schoolId": "sch_chis_01",
+      "staffId": "TCH/CHIS/025",
+      "name": "Dr. Aminu Garba",
+      "email": "a.garba@crownheights.sch.ng",
+      "phone": "+234 809 444 5566",
+      "qualification": "Ph.D Physics, Ahmadu Bello University, Zaria",
+      "assignedClasses": [
+        "cls_jss2_a",
+        "cls_sss1_sci",
+        "cls_sss2_sci"
+      ],
+      "assignedSubjects": [
+        "Basic Science & Technology",
+        "Physics",
+        "Chemistry"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "std_1",
+      "schoolId": "sch_chis_01",
+      "admissionNo": "CHIS/2023/042",
+      "firstName": "Toluwanimi",
+      "lastName": "Adeleke",
+      "otherNames": "Oluwaseun",
+      "gender": "Female",
+      "dob": "2011-04-18",
+      "classId": "cls_jss2_a",
+      "className": "JSS 2",
+      "arm": "Gold",
+      "parentId": "par_1",
+      "parentName": "Chief Olatunji Adeleke",
+      "parentPhone": "+234 803 777 8899",
+      "parentEmail": "tunji.adeleke@gmail.com",
+      "emergencyContact": {
+        "name": "Mrs. Funke Adeleke",
+        "phone": "+234 802 333 7788",
+        "relationship": "Mother"
+      },
+      "address": "12 Victoria Garden City (VGC), Lekki, Lagos",
+      "bloodGroup": "O+",
+      "medicalNotes": "Mild asthma, carries inhaler",
+      "admissionDate": "2023-09-11",
+      "status": "active"
+    },
+    {
+      "id": "std_2",
+      "schoolId": "sch_chis_01",
+      "admissionNo": "CHIS/2022/019",
+      "firstName": "Emeka",
+      "lastName": "Eze",
+      "otherNames": "Kelechi",
+      "gender": "Male",
+      "dob": "2009-08-24",
+      "classId": "cls_sss2_sci",
+      "className": "SSS 2",
+      "arm": "Science",
+      "parentId": "par_2",
+      "parentName": "Mr. Jude Eze",
+      "parentPhone": "+234 803 999 0011",
+      "parentEmail": "jude.eze@yahoo.com",
+      "emergencyContact": {
+        "name": "Mr. Jude Eze",
+        "phone": "+234 803 999 0011",
+        "relationship": "Father"
+      },
+      "address": "8 Chevron Drive, Lekki, Lagos",
+      "bloodGroup": "A+",
+      "medicalNotes": "No known allergies",
+      "admissionDate": "2022-09-12",
+      "status": "active"
+    },
+    {
+      "id": "std_3",
+      "schoolId": "sch_chis_01",
+      "admissionNo": "CHIS/2023/058",
+      "firstName": "Zainab",
+      "lastName": "Danjuma",
+      "otherNames": "Fatima",
+      "gender": "Female",
+      "dob": "2011-11-05",
+      "classId": "cls_jss2_a",
+      "className": "JSS 2",
+      "arm": "Gold",
+      "parentId": "par_3",
+      "parentName": "Hajiya Maryam Danjuma",
+      "parentPhone": "+234 808 123 9876",
+      "parentEmail": "maryam.danjuma@gmail.com",
+      "emergencyContact": {
+        "name": "Hajiya Maryam Danjuma",
+        "phone": "+234 808 123 9876",
+        "relationship": "Mother"
+      },
+      "address": "4 Ikate Elegushi, Lekki, Lagos",
+      "bloodGroup": "B+",
+      "medicalNotes": "Allergic to penicillin",
+      "admissionDate": "2023-09-11",
+      "status": "active"
+    },
+    {
+      "id": "std_4",
+      "schoolId": "sch_chis_01",
+      "admissionNo": "CHIS/2022/031",
+      "firstName": "Blessing",
+      "lastName": "Okon",
+      "otherNames": "Aniekan",
+      "gender": "Female",
+      "dob": "2009-03-14",
+      "classId": "cls_sss2_sci",
+      "className": "SSS 2",
+      "arm": "Science",
+      "parentId": "par_4",
+      "parentName": "Elder Bassey Okon",
+      "parentPhone": "+234 802 444 6688",
+      "parentEmail": "bassey.okon@gmail.com",
+      "emergencyContact": {
+        "name": "Elder Bassey Okon",
+        "phone": "+234 802 444 6688",
+        "relationship": "Father"
+      },
+      "address": "22 Agungi Road, Lekki, Lagos",
+      "bloodGroup": "O+",
+      "medicalNotes": "None",
+      "admissionDate": "2022-09-12",
+      "status": "active"
+    }
+  ],
+  "parents": [
+    {
+      "id": "par_1",
+      "schoolId": "sch_chis_01",
+      "name": "Chief Olatunji Adeleke",
+      "email": "tunji.adeleke@gmail.com",
+      "phone": "+234 803 777 8899",
+      "occupation": "Civil Engineer & Consultant",
+      "relationship": "Father",
+      "address": "12 Victoria Garden City (VGC), Lekki, Lagos",
+      "linkedStudentIds": [
+        "std_1"
+      ]
+    },
+    {
+      "id": "par_2",
+      "schoolId": "sch_chis_01",
+      "name": "Mr. Jude Eze",
+      "email": "jude.eze@yahoo.com",
+      "phone": "+234 803 999 0011",
+      "occupation": "Chartered Accountant",
+      "relationship": "Father",
+      "address": "8 Chevron Drive, Lekki, Lagos",
+      "linkedStudentIds": [
+        "std_2"
+      ]
+    },
+    {
+      "id": "par_3",
+      "schoolId": "sch_chis_01",
+      "name": "Hajiya Maryam Danjuma",
+      "email": "maryam.danjuma@gmail.com",
+      "phone": "+234 808 123 9876",
+      "occupation": "Business Executive",
+      "relationship": "Mother",
+      "address": "4 Ikate Elegushi, Lekki, Lagos",
+      "linkedStudentIds": [
+        "std_3"
+      ]
+    },
+    {
+      "id": "par_4",
+      "schoolId": "sch_chis_01",
+      "name": "Elder Bassey Okon",
+      "email": "bassey.okon@gmail.com",
+      "phone": "+234 802 444 6688",
+      "occupation": "Maritime Logistics Director",
+      "relationship": "Father",
+      "address": "22 Agungi Road, Lekki, Lagos",
+      "linkedStudentIds": [
+        "std_4"
+      ]
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att_2025_02_20_jss2",
+      "schoolId": "sch_chis_01",
+      "classId": "cls_jss2_a",
+      "className": "JSS 2",
+      "arm": "Gold",
+      "date": "2026-10-31",
+      "term": "1st Term",
+      "session": "2024/2025",
+      "markedByStaffId": "tch_2",
+      "markedByStaffName": "Mrs. Folashade Adeyemi",
+      "markedAt": "2026-10-31T13:16:52.721Z",
+      "records": [
+        {
+          "studentId": "std_1",
+          "studentName": "Toluwanimi Adeleke",
+          "admissionNo": "CHIS/2023/042",
+          "status": "present"
+        },
+        {
+          "studentId": "std_3",
+          "studentName": "Zainab Danjuma",
+          "admissionNo": "CHIS/2023/058",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "att_2025_02_20_sss2",
+      "schoolId": "sch_chis_01",
+      "classId": "cls_sss2_sci",
+      "className": "SSS 2",
+      "arm": "Science",
+      "date": "2026-10-31",
+      "term": "1st Term",
+      "session": "2024/2025",
+      "markedByStaffId": "tch_1",
+      "markedByStaffName": "Mr. Chinedu Okafor",
+      "markedAt": "2026-10-31T13:16:52.721Z",
+      "records": [
+        {
+          "studentId": "std_2",
+          "studentName": "Emeka Eze",
+          "admissionNo": "CHIS/2022/019",
+          "status": "present"
+        },
+        {
+          "studentId": "std_4",
+          "studentName": "Blessing Okon",
+          "admissionNo": "CHIS/2022/031",
+          "status": "late",
+          "reason": "Heavy traffic at Ajah roundabout"
+        }
+      ]
+    }
+  ],
+  "reportCards": [
+    {
+      "id": "rep_std_1_2024_term1",
+      "schoolId": "sch_chis_01",
+      "studentId": "std_1",
+      "studentName": "Toluwanimi Adeleke",
+      "admissionNo": "CHIS/2023/042",
+      "classId": "cls_jss2_a",
+      "className": "JSS 2",
+      "arm": "Gold",
+      "term": "1st Term",
+      "session": "2024/2025",
+      "totalScore": 442,
+      "averageScore": 88.4,
+      "classPosition": 1,
+      "classTotalStudents": 30,
+      "teacherComment": "Toluwanimi is an exceptionally hardworking and disciplined student. She participates actively in all lessons.",
+      "principalComment": "Outstanding academic excellence. Maintain this exemplary standard.",
+      "affectiveTraits": {
+        "punctuality": 5,
+        "neatness": 5,
+        "honesty": 5,
+        "leadership": 4,
+        "politeness": 5,
+        "sportsmanship": 4
+      },
+      "daysPresent": 58,
+      "daysAbsent": 2,
+      "nextTermResumptionDate": "2025-01-13",
+      "status": "published",
+      "publishedAt": "2024-12-16T10:00:00.000Z",
+      "subjects": [
+        {
+          "subjectId": "sub_mth",
+          "subjectName": "Mathematics",
+          "ca1": 14,
+          "ca2": 15,
+          "exam": 63,
+          "total": 92,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 1
+        },
+        {
+          "subjectId": "sub_eng",
+          "subjectName": "English Language",
+          "ca1": 13,
+          "ca2": 14,
+          "exam": 58,
+          "total": 85,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 2
+        },
+        {
+          "subjectId": "sub_bst",
+          "subjectName": "Basic Science & Technology",
+          "ca1": 14,
+          "ca2": 14,
+          "exam": 61,
+          "total": 89,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 1
+        },
+        {
+          "subjectId": "sub_cve",
+          "subjectName": "Civic Education",
+          "ca1": 15,
+          "ca2": 15,
+          "exam": 60,
+          "total": 90,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 1
+        },
+        {
+          "subjectId": "sub_bio",
+          "subjectName": "Agricultural Science",
+          "ca1": 13,
+          "ca2": 13,
+          "exam": 60,
+          "total": 86,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "id": "rep_std_2_2024_term1",
+      "schoolId": "sch_chis_01",
+      "studentId": "std_2",
+      "studentName": "Emeka Eze",
+      "admissionNo": "CHIS/2022/019",
+      "classId": "cls_sss2_sci",
+      "className": "SSS 2",
+      "arm": "Science",
+      "term": "1st Term",
+      "session": "2024/2025",
+      "totalScore": 421,
+      "averageScore": 84.2,
+      "classPosition": 2,
+      "classTotalStudents": 25,
+      "teacherComment": "Emeka displays keen aptitude for physics and analytical thinking. Very focused in class.",
+      "principalComment": "A very commendable term. Keep striving for distinction in all subjects.",
+      "affectiveTraits": {
+        "punctuality": 4,
+        "neatness": 5,
+        "honesty": 5,
+        "leadership": 5,
+        "politeness": 5,
+        "sportsmanship": 5
+      },
+      "daysPresent": 59,
+      "daysAbsent": 1,
+      "nextTermResumptionDate": "2025-01-13",
+      "status": "published",
+      "publishedAt": "2024-12-16T10:00:00.000Z",
+      "subjects": [
+        {
+          "subjectId": "sub_mth",
+          "subjectName": "Mathematics",
+          "ca1": 14,
+          "ca2": 14,
+          "exam": 60,
+          "total": 88,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 2
+        },
+        {
+          "subjectId": "sub_phy",
+          "subjectName": "Physics",
+          "ca1": 15,
+          "ca2": 14,
+          "exam": 64,
+          "total": 93,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 1
+        },
+        {
+          "subjectId": "sub_chm",
+          "subjectName": "Chemistry",
+          "ca1": 13,
+          "ca2": 13,
+          "exam": 57,
+          "total": 83,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 3
+        },
+        {
+          "subjectId": "sub_bio",
+          "subjectName": "Biology",
+          "ca1": 12,
+          "ca2": 13,
+          "exam": 55,
+          "total": 80,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 2
+        },
+        {
+          "subjectId": "sub_eng",
+          "subjectName": "English Language",
+          "ca1": 12,
+          "ca2": 12,
+          "exam": 53,
+          "total": 77,
+          "grade": "A1",
+          "remark": "Distinction",
+          "position": 4
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "asg_mth_jss2_01",
+      "schoolId": "sch_chis_01",
+      "title": "Quadratic Algebraic Expansions & Word Problems",
+      "subjectName": "Mathematics",
+      "classId": "cls_jss2_a",
+      "className": "JSS 2",
+      "arm": "Gold",
+      "teacherId": "tch_1",
+      "teacherName": "Mr. Chinedu Okafor",
+      "description": "Complete Exercise 4.2 in New General Mathematics (pages 48-50), numbers 1 to 15. Show full steps in your submission.",
+      "dueDate": "2025-02-28",
+      "maxScore": 20,
+      "createdAt": "2025-02-18T09:00:00.000Z",
+      "submissionCount": 2,
+      "attachments": [
+        {
+          "name": "Mathematics_Exercise_Guideline.pdf",
+          "size": "1.2 MB"
+        }
+      ]
+    },
+    {
+      "id": "asg_phy_sss2_01",
+      "schoolId": "sch_chis_01",
+      "title": "Projectile Motion & Trajectory Calculation Lab Report",
+      "subjectName": "Physics",
+      "classId": "cls_sss2_sci",
+      "className": "SSS 2",
+      "arm": "Science",
+      "teacherId": "tch_3",
+      "teacherName": "Dr. Aminu Garba",
+      "description": "Write a comprehensive laboratory report on horizontal and angular projectile experiments conducted in the school physics lab.",
+      "dueDate": "2025-03-05",
+      "maxScore": 30,
+      "createdAt": "2025-02-19T11:00:00.000Z",
+      "submissionCount": 1,
+      "attachments": [
+        {
+          "name": "Physics_Lab_Manual_SSS2.pdf",
+          "size": "2.4 MB"
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "subm_1",
+      "assignmentId": "asg_mth_jss2_01",
+      "studentId": "std_1",
+      "studentName": "Toluwanimi Adeleke",
+      "admissionNo": "CHIS/2023/042",
+      "submissionText": "Dear Mr. Okafor, please find attached my solutions to Exercise 4.2. I checked all quadratic factors using expansion verification.",
+      "attachedFile": "Toluwanimi_Adeleke_Maths_HW4.pdf",
+      "submittedAt": "2025-02-22T14:20:00.000Z",
+      "score": 19,
+      "feedback": "Excellent work, Toluwanimi. Neat algebraic presentation and correct signs throughout.",
+      "status": "graded"
+    },
+    {
+      "id": "subm_2",
+      "assignmentId": "asg_phy_sss2_01",
+      "studentId": "std_2",
+      "studentName": "Emeka Eze",
+      "admissionNo": "CHIS/2022/019",
+      "submissionText": "Lab Report on Projectile Motion. Includes graphs of range vs projection angle theta plotted using experimental trials.",
+      "attachedFile": "Emeka_Eze_Physics_Lab_Projectile.pdf",
+      "submittedAt": "2025-02-24T18:00:00.000Z",
+      "score": 28,
+      "feedback": "Very thorough analysis of air resistance limitations and clear graphical deduction.",
+      "status": "graded"
+    }
+  ],
+  "timetables": [
+    {
+      "id": "tt_jss2_mon",
+      "schoolId": "sch_chis_01",
+      "classId": "cls_jss2_a",
+      "className": "JSS 2",
+      "arm": "Gold",
+      "day": "Monday",
+      "periods": [
+        {
+          "periodNumber": 1,
+          "time": "08:00 - 08:45",
+          "subjectName": "Mathematics",
+          "teacherName": "Mr. Chinedu Okafor",
+          "room": "Room 204"
+        },
+        {
+          "periodNumber": 2,
+          "time": "08:45 - 09:30",
+          "subjectName": "Mathematics",
+          "teacherName": "Mr. Chinedu Okafor",
+          "room": "Room 204"
+        },
+        {
+          "periodNumber": 3,
+          "time": "09:30 - 10:15",
+          "subjectName": "English Language",
+          "teacherName": "Mrs. Folashade Adeyemi",
+          "room": "Room 204"
+        },
+        {
+          "periodNumber": 4,
+          "time": "10:45 - 11:30",
+          "subjectName": "Basic Science & Tech",
+          "teacherName": "Dr. Aminu Garba",
+          "room": "Science Lab 1"
+        },
+        {
+          "periodNumber": 5,
+          "time": "11:30 - 12:15",
+          "subjectName": "Civic Education",
+          "teacherName": "Mrs. Folashade Adeyemi",
+          "room": "Room 204"
+        },
+        {
+          "periodNumber": 6,
+          "time": "01:00 - 01:45",
+          "subjectName": "Agricultural Science",
+          "teacherName": "Mr. Chinedu Okafor",
+          "room": "School Farm"
+        }
+      ]
+    },
+    {
+      "id": "tt_sss2_mon",
+      "schoolId": "sch_chis_01",
+      "classId": "cls_sss2_sci",
+      "className": "SSS 2",
+      "arm": "Science",
+      "day": "Monday",
+      "periods": [
+        {
+          "periodNumber": 1,
+          "time": "08:00 - 08:45",
+          "subjectName": "Physics",
+          "teacherName": "Dr. Aminu Garba",
+          "room": "Physics Lab"
+        },
+        {
+          "periodNumber": 2,
+          "time": "08:45 - 09:30",
+          "subjectName": "Chemistry",
+          "teacherName": "Dr. Aminu Garba",
+          "room": "Chemistry Lab"
+        },
+        {
+          "periodNumber": 3,
+          "time": "09:30 - 10:15",
+          "subjectName": "Mathematics",
+          "teacherName": "Mr. Chinedu Okafor",
+          "room": "Room 302"
+        },
+        {
+          "periodNumber": 4,
+          "time": "10:45 - 11:30",
+          "subjectName": "English Language",
+          "teacherName": "Mrs. Folashade Adeyemi",
+          "room": "Room 302"
+        },
+        {
+          "periodNumber": 5,
+          "time": "11:30 - 12:15",
+          "subjectName": "Biology",
+          "teacherName": "Mr. Chinedu Okafor",
+          "room": "Biology Lab"
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_2024_01_std1",
+      "schoolId": "sch_chis_01",
+      "studentId": "std_1",
+      "studentName": "Toluwanimi Adeleke",
+      "admissionNo": "CHIS/2023/042",
+      "classId": "cls_jss2_a",
+      "className": "JSS 2 Gold",
+      "term": "1st Term",
+      "session": "2024/2025",
+      "totalAmount": 385000,
+      "amountPaid": 385000,
+      "balance": 0,
+      "dueDate": "2024-10-15",
+      "status": "paid",
+      "createdAt": "2024-09-02T08:00:00.000Z",
+      "items": [
+        {
+          "title": "Tuition & Academic Services",
+          "amount": 260000
+        },
+        {
+          "title": "ICT & STEM Laboratory Levy",
+          "amount": 45000
+        },
+        {
+          "title": "Textbooks, Stationery & Workbooks",
+          "amount": 50000
+        },
+        {
+          "title": "PTA Development Levy",
+          "amount": 15000
+        },
+        {
+          "title": "School Clubs & Sports Activity",
+          "amount": 15000
+        }
+      ]
+    },
+    {
+      "id": "inv_2024_01_std2",
+      "schoolId": "sch_chis_01",
+      "studentId": "std_2",
+      "studentName": "Emeka Eze",
+      "admissionNo": "CHIS/2022/019",
+      "classId": "cls_sss2_sci",
+      "className": "SSS 2 Science",
+      "term": "1st Term",
+      "session": "2024/2025",
+      "totalAmount": 420000,
+      "amountPaid": 250000,
+      "balance": 170000,
+      "dueDate": "2024-10-15",
+      "status": "partial",
+      "createdAt": "2024-09-02T08:00:00.000Z",
+      "items": [
+        {
+          "title": "Senior Secondary Tuition & Practical Lab Fee",
+          "amount": 290000
+        },
+        {
+          "title": "WAEC / NECO Science Preparatory Practical",
+          "amount": 50000
+        },
+        {
+          "title": "ICT & E-Learning Portal Access",
+          "amount": 45000
+        },
+        {
+          "title": "PTA Levy",
+          "amount": 15000
+        },
+        {
+          "title": "Medical & Healthcare Retainer",
+          "amount": 20000
+        }
+      ]
+    },
+    {
+      "id": "inv_2024_01_std3",
+      "schoolId": "sch_chis_01",
+      "studentId": "std_3",
+      "studentName": "Zainab Danjuma",
+      "admissionNo": "CHIS/2023/058",
+      "classId": "cls_jss2_a",
+      "className": "JSS 2 Gold",
+      "term": "1st Term",
+      "session": "2024/2025",
+      "totalAmount": 385000,
+      "amountPaid": 0,
+      "balance": 385000,
+      "dueDate": "2024-10-15",
+      "status": "unpaid",
+      "createdAt": "2024-09-02T08:00:00.000Z",
+      "items": [
+        {
+          "title": "Tuition & Academic Services",
+          "amount": 260000
+        },
+        {
+          "title": "ICT & STEM Laboratory Levy",
+          "amount": 45000
+        },
+        {
+          "title": "Textbooks, Stationery & Workbooks",
+          "amount": 50000
+        },
+        {
+          "title": "PTA Development Levy",
+          "amount": 15000
+        },
+        {
+          "title": "School Clubs & Sports Activity",
+          "amount": 15000
+        }
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "id": "rcpt_001_2024",
+      "invoiceId": "inv_2024_01_std1",
+      "studentId": "std_1",
+      "studentName": "Toluwanimi Adeleke",
+      "admissionNo": "CHIS/2023/042",
+      "className": "JSS 2 Gold",
+      "amount": 385000,
+      "paymentMethod": "Paystack",
+      "reference": "PSTK_REF_9812480123",
+      "verified": true,
+      "paidAt": "2024-09-10T10:14:00.000Z",
+      "receiptNumber": "CHIS-REC-2024-0491",
+      "verifiedBy": "Mrs. Ngozi Obi (ACA)",
+      "notes": "Full payment confirmed via Paystack gateway."
+    },
+    {
+      "id": "rcpt_002_2024",
+      "invoiceId": "inv_2024_01_std2",
+      "studentId": "std_2",
+      "studentName": "Emeka Eze",
+      "admissionNo": "CHIS/2022/019",
+      "className": "SSS 2 Science",
+      "amount": 250000,
+      "paymentMethod": "Bank Transfer",
+      "reference": "ZENITH_NIP_TRF_4901284",
+      "verified": true,
+      "paidAt": "2024-09-18T16:32:00.000Z",
+      "receiptNumber": "CHIS-REC-2024-0518",
+      "verifiedBy": "Mrs. Ngozi Obi (ACA)",
+      "notes": "First instalment received in Zenith Bank collection account."
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann_01",
+      "schoolId": "sch_chis_01",
+      "title": "Mid-Term Break & Open Day Exhibition Schedule",
+      "content": "Dear Parents and Guardians, please be informed that our Open Day and Mid-Term academic consultation will hold this Thursday from 9:00 AM to 2:00 PM. The Mid-Term break commences on Friday. Classes resume the following Monday.",
+      "targetRole": "all",
+      "priority": "urgent",
+      "authorName": "Dr. Babatunde Alabi",
+      "authorRole": "School Administrator",
+      "createdAt": "2025-02-15T08:00:00.000Z"
+    },
+    {
+      "id": "ann_02",
+      "schoolId": "sch_chis_01",
+      "title": "Submission of Continuous Assessment (CA 2) Test Scores",
+      "content": "All teachers are kindly requested to complete the entry of Continuous Assessment (CA 2) scores into the Sch Connect portal before Friday close of business. Result collation for termly report cards will commence immediately.",
+      "targetRole": "teachers",
+      "priority": "normal",
+      "authorName": "Dr. Babatunde Alabi",
+      "authorRole": "School Administrator",
+      "createdAt": "2025-02-17T12:00:00.000Z"
+    },
+    {
+      "id": "ann_03",
+      "schoolId": "sch_chis_01",
+      "title": "Annual Inter-House Athletics & Sports Fiesta 2025",
+      "content": "Crown Heights International School invites all students, parents, and friends to our 14th Annual Inter-House Sports Fiesta at the school sports complex. Blue House, Green House, Yellow House, and Red House will compete for the overall championship shield.",
+      "targetRole": "all",
+      "priority": "normal",
+      "authorName": "Sports Department",
+      "authorRole": "Staff Coordinator",
+      "createdAt": "2025-02-19T14:30:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_01",
+      "schoolId": "sch_chis_01",
+      "title": "Parents-Teachers Association (PTA) General Meeting",
+      "date": "2025-03-08",
+      "time": "10:00 AM - 1:00 PM",
+      "category": "PTA",
+      "description": "Deliberations on school infrastructure enhancements, student bus routes, and end-of-year graduation arrangements."
+    },
+    {
+      "id": "evt_02",
+      "schoolId": "sch_chis_01",
+      "title": "First Term Final Examinations Begin",
+      "date": "2025-03-24",
+      "time": "08:30 AM Daily",
+      "category": "Exam",
+      "description": "Comprehensive examinations across all classes. Timetable published in Sch Connect portal."
+    },
+    {
+      "id": "evt_03",
+      "schoolId": "sch_chis_01",
+      "title": "Inter-House Sports Heat Trials",
+      "date": "2025-03-12",
+      "time": "01:00 PM - 04:00 PM",
+      "category": "Sports",
+      "description": "Track and field preliminary heats for junior and senior categories."
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_01",
+      "schoolId": "sch_chis_01",
+      "parentId": "par_1",
+      "parentName": "Chief Olatunji Adeleke",
+      "studentName": "Toluwanimi Adeleke",
+      "subject": "Enquiry Regarding Inter-School Robotics & STEM Competition",
+      "message": "Good day administration, I would like to know if Toluwanimi has been selected as part of the school team representing Crown Heights at the Lagos State Robotics Olympiad.",
+      "reply": "Good day Chief Adeleke. Yes, Toluwanimi demonstrated top analytical scores in her STEM tests and is part of the 5-student team representing the school. Preparations commence next Wednesday after school.",
+      "repliedBy": "Dr. Babatunde Alabi",
+      "repliedAt": "2025-02-16T11:20:00.000Z",
+      "status": "resolved",
+      "createdAt": "2025-02-15T15:10:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_01",
+      "schoolId": "sch_chis_01",
+      "userId": "usr_admin",
+      "userName": "Dr. Babatunde Alabi",
+      "userRole": "Administrator",
+      "action": "Term Configuration",
+      "details": "Configured 2024/2025 academic calendar and published 1st term timetable.",
+      "timestamp": "2024-09-01T08:30:00.000Z"
+    },
+    {
+      "id": "aud_02",
+      "schoolId": "sch_chis_01",
+      "userId": "usr_bur_1",
+      "userName": "Mrs. Ngozi Obi (ACA)",
+      "userRole": "Bursar",
+      "action": "Fee Verification",
+      "details": "Verified receipt CHIS-REC-2024-0491 for student Toluwanimi Adeleke (₦385,000.00).",
+      "timestamp": "2024-09-10T10:15:00.000Z"
+    }
+  ]
+}

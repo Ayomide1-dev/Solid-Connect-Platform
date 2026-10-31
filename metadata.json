@@ -1,0 +1,6 @@
+{
+  "name": "Sch Connect",
+  "description": "All-in-one school management mobile and web platform for Nigerian primary and secondary schools, connecting administrators, teachers, students, parents, and bursars.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
